@@ -88,7 +88,7 @@ public class Fuel2{
                 info[5], pricePerUnit + " S.R",
                 info[6], totalCost() + " S.R",
                 info[7], fuelConsumption[0] + " " + distanceUnit,
-                info[8], fuelConsumption[1]) + " " + fuelUnit;
+                info[8], fuelConsumption[1] + " " + fuelUnit);
         System.out.println(infoDisplay);
     }
 }
